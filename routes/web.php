@@ -26,5 +26,14 @@ function($id = null){
     return "recebi o valor = $id";
 });
 
-Route::post('/contato', ['uses'=>'App\Http\Controllers\contactController@index']);
+Route::get('/site', function(){
+    return view('layout/site');
+});
+
+Route::get('/rota1', function(){
+    return view('rota1');
+});
+
+Route::post('/contato', ['uses'=>'App\Http\Controllers\contatoController@index']);
+
 

@@ -16,15 +16,14 @@
         </style>
     </head>
     <body>
+        <img src="layout/imgs/logo.png" alt="">
         <form action='/contato' method='post'>
-            {{ csrf_field() }}
-            <!-- cria um input oculto com token -->
-            <label for="name">Name:</label><br>
-            <input type='text' name='name' value=''><br>
-            <label for="password">Password:</label><br>
-            <input type='password' name='password' value=''><br>
-            <label for="submit">Submit:</label><br>
-            <input type='submit' value='ok'>
+            {{ csrf_field() }} 
+            <label for="name">Nome:</label><br>
+            <input type='text' name='name' ><br>
+            <label for="celular">Celular:</label><br>
+            <input type='text' name='celular' ><br>
+            <input type='submit' value='Enviar'>
         </form>
     </body>
 </html>
