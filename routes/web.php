@@ -34,6 +34,14 @@ Route::get('/rota1', function(){
     return view('rota1');
 });
 
+Route::get('/rota2', function(){
+    return view('rota2');
+});
+
+Route::get('/rota3', function(){
+    return view('rota3');
+});
+
 Route::post('/contato', ['uses'=>'App\Http\Controllers\contatoController@index']);
 
 

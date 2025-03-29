@@ -1,11 +1,14 @@
-<html>
-    <link rel="stylesheet" href="{{ asset('css/_cabecalho.blade.css') }}">
-    <header class="cabecalho">
+<header class="cabecalho">
+    <!-- Logo ou Imagem -->
     <div class="logo">
-        <img src="{{ asset('/layout/imgs/logo.png') }}" alt="Logo">
+        <a href="/rota1"><img src="{{ asset('imagens/logo.png') }}" alt="Logo"></a>
     </div>
-        <div class="login">
-            <button> Login</button>
-        </div>
-    </header>
-    <body>
+
+    <!-- Botão de Login -->
+    <div class="login">
+        <button class="botao-login">Login</button>
+    </div>
+</header>
+
+<!-- Importando o CSS -->
+<link rel="stylesheet" href="{{ asset('css/_cabecalho.blade.css') }}">
