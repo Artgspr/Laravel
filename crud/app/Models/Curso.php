@@ -9,4 +9,8 @@ class Curso extends Model
 {
     use HasFactory;
     protected $table = 'cursosOPA';
+    protected $fillable = [
+        'titulo','descricao','imagem','valor','publicado'
+    ];
 }
+
