@@ -1,4 +1,4 @@
-@extends("layout._site")
+@extends("layout.layout_cursos._site")
 @section("titulo","Cursos")
 @section ("conteudo")
 <div class='container'>

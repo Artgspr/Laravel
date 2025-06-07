@@ -13,11 +13,13 @@
     <body>
 
         <nav>
-            <div class="nav-wrapper deep-orange">
-                <a href="#!" class="brand-logo">Projeto Cursos</a>
+            <div class="nav-wrapper blue">
+            <a href="#!" class="brand-logo"><img src="{{ asset('img/usos/CTI_2.png') }}" alt="Logo CTI"
+            style="width: 60%; height: 100%;"></a>
                 <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="/">Home</a></li>
+                        <li><a href="{{route('admin.aluno')}}">Cursos</a></li>
                         <li><a href="{{route('admin.cursos')}}">Cursos</a></li>
                     </ul>
             </div>

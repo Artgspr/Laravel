@@ -1,6 +1,6 @@
 <html>
     <head>
-      <title>@yield('titulo')</title>
+      <title>@yield('CTI')</title>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -14,13 +14,12 @@
 
         <nav>
             <div class="nav-wrapper blue">
-            <a href="#!" class="brand-logo"><img src="{{ asset('img/usos/CTI_2.png') }}" alt="Logo CTI"
-            style="width: 60%; height: 100%;"></a>
+                <a href="#!" class="brand-logo"><img src="{{ asset('img/usos/CTI_2.png') }}" alt="Logo CTI"
+                 style="width: 60%; height: 100%;"></a>
                 <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="/">Home</a></li>
-                        <li><a href="{{route('admin.aluno')}}">Alunos</a></li>
-                        <li><a href="{{route('admin.cursos')}}">Cursos</a></li>
+                        <li><a href="{{route('admin.aluno')}}">Login</a></li>
                     </ul>
             </div>
         </nav>
